@@ -1,6 +1,7 @@
 services:
 - type: web
   name: xc
+  plan: free
   env: docker
   autoDeploy: false
   healthCheckPath: /dashboard
@@ -13,3 +14,4 @@ services:
     value: 8080
 databases:
 - name: xc
+  plan: free
